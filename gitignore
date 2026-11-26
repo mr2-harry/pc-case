@@ -1,0 +1,34 @@
+# ---- FreeCAD ----
+# Lock file created while a document is open
+*.FC.lock
+
+# Backup and autosave files FreeCAD creates next to your documents
+*.FCBak
+*.fcstd1
+*.FCStd1
+*.fcstd2
+*.FCStd2
+
+# Generic backup/temp files
+*.bak
+*.tmp
+*~
+
+# ---- OS clutter ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Python caches (if you add macros or scripts) ----
+__pycache__/
+*.pyc
+
+# ---- Exports (regenerable) ----
+# Keep the folder itself, ignore its contents
+exports/*
+!exports/.gitkeep
